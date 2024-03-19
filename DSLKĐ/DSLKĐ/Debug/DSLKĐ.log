@@ -1,0 +1,6 @@
+﻿  Bailam.cpp
+D:\CTDL&GT\DSLKĐ\DSLKĐ\Bailam.cpp(67,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CTDL&GT\DSLKĐ\DSLKĐ\Bailam.cpp(72,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CTDL&GT\DSLKĐ\DSLKĐ\Bailam.cpp(111,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CTDL&GT\DSLKĐ\DSLKĐ\Bailam.cpp(258,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  DSLKĐ.vcxproj -> D:\CTDL&GT\DSLKĐ\Debug\DSLKĐ.exe
