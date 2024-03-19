@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void)
+{
+   printf("Boi so cua 7 co 2 chu so la: ");
+   for(int i=10;i<=99;i++){
+       if(i%7==0){
+           printf("%d ",i);
+       }
+   }// Your code here!
+}
