@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<math.h>
+
+int KiemTraSoChinhPhuong(int n) {
+	int sqrt_n = sqrt(n);
+	return sqrt_n * sqrt_n == n;
+}
+
+int DemSoChinhPhuong(int n)
+{
+	int count = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if (KiemTraSoChinhPhuong(i) == 1)
+			printf("%d ", i);
+		count++;
+	}
+	printf("\n");
+	return count;
+}
+
+int main()
+{
+	int n;
+	printf("Vui long nhap n de thuc hien bai toan: ");
+	scanf("%d", &n);
+	printf("cac so Chinh phuong nho hon %d la: ",n);
+	DemSoChinhPhuong(n);
+	return 0;
+}
